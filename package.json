@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --exec babel-node src/index.js",
+    "start": "nodemon --exec babel-node src/index.ts --extensions '.ts,.tsx'",
+    "tsc": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,9 +15,12 @@
     "@babel/core": "^7.23.2",
     "@babel/node": "^7.22.19",
     "@babel/preset-env": "^7.23.2",
+    "@babel/preset-typescript": "^7.23.2",
     "nodemon": "^3.0.1"
   },
   "dependencies": {
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
   }
 }
