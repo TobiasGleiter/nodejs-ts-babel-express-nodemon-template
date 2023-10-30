@@ -11,7 +11,7 @@ const port = process.env.PORT;
 app.use(cors(options));
 app.use(express.json());
 
-app.get("/products/:id", function (req: Request, res: Response, next) {
+app.get("/products/:id", function (req: Request, res: Response) {
   res.json({ msg: "This is CORS-enabled for localhost:3000!" });
 });
 
