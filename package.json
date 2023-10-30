@@ -6,7 +6,7 @@
   "scripts": {
     "start": "nodemon --exec babel-node src/index.ts --extensions '.ts,.tsx'",
     "tsc": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "Tobias Gleiter",
@@ -19,6 +19,7 @@
     "@types/cors": "^2.8.15",
     "@types/express": "^4.17.20",
     "@types/node": "^20.8.9",
+    "jest": "^29.7.0",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1",
     "typescipt": "^1.0.0",
