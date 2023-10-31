@@ -1,5 +1,7 @@
 # Node.js Template with TypeScript
 
+![banner](https://github.com/TobiasGleiter/nodejs-ts-babel-express-nodemon-template/blob/main/docs/images/banner.png)
+
 ## Overview
 
 This project serves as a template for building robust and scalable applications using Node.js and TypeScript. It is designed to streamline the development process by providing a ready-to-use setup that includes essential tools and configurations such as Babel, Nodemon, Jest, ESLint, and Husky.
@@ -15,10 +17,10 @@ This project serves as a template for building robust and scalable applications 
 
 1. **Clone the repository:**
 
-   ```sh
-   git clone https://github.com/your-repo-link.git
-   cd your-project-folder
-   ```
+```sh
+git clone https://github.com/TobiasGleiter/nodejs-ts-babel-express-nodemon-template
+cd nodejs-ts-babel-express-nodemon-template
+```
 
 2. **Install dependencies:**
 
